@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Manipulação do DOM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Título da Página -->
+    <h1 id="titulo">Manipulação Avançada do DOM</h1>
+
+    <!-- Seção de Alteração de Texto -->
+    <div class="container">
+        <h2>Alteração de Texto</h2>
+        <p id="texto">Clique no botão para mudar este texto.</p>
+        <button onclick="alterarTexto()">Alterar Texto</button>
+    </div>
+
+    <!-- Seção de Mudança de Cor -->
+    <div class="container">
+        <h2>Mudar Cor de Fundo</h2>
+        <button onclick="mudarCor()">Mudar Cor</button>
+    </div>
+
+    <!-- Seção de Lista Dinâmica -->
+    <div class="container">
+        <h2>Adicionar e Remover Itens</h2>
+        <input type="text" id="itemInput" placeholder="Digite um item">
+        <button onclick="adicionarItem()">Adicionar Item</button>
+        <ul id="lista"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
